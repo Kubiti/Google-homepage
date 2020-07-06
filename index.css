@@ -1,0 +1,149 @@
+/*general*/
+* {
+    margin: 0;
+    
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 0.875rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grey {
+    color: rgb(95, 99, 104);
+    background-color: rgb(242, 242, 242);
+}
+
+/*header*/
+header nav {
+    margin-left: 80vw;
+    padding-right: 1%;
+}
+
+header nav a {
+    position: relative;
+    bottom: 0.8rem;
+    padding-right: 6%;
+    color: rgb(0, 0, 0);
+}
+
+header nav img {
+    height: 100%;
+    width: auto;
+    position: relative;
+    top: 1.5rem;
+}
+
+#mail {
+    background-color: rgba(67, 135, 253, 1);
+    color: #fff;
+    padding: 3.2% 5.8%;
+    border: none;
+    border-radius: 3px;
+    cursor: default;
+}
+
+.underline:hover {
+    text-decoration: underline;
+}
+
+#deep {
+    opacity: 0.8;
+}
+
+#deep:hover {
+    opacity: 1;
+}
+
+
+/*main*/
+main {
+    margin: 7rem auto 0 auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+img {
+    height: 6rem;
+    width: auto;
+    margin-bottom: 0.8rem;
+}
+
+form input {
+    width: 80%;
+    height: 3rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background: url(./search_img.PNG) no-repeat left;
+    padding: 0 7%;
+    margin-bottom: 3rem;
+}
+
+
+input[type=text]:focus, input:focus { 
+    outline: none 
+}
+
+.shadow:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+form img {
+    height: auto;
+    position: relative;
+    top: 1.4rem;
+    right: 2.5rem;
+}
+
+main section {
+    margin-bottom: 2.5rem;
+}
+
+main .button {
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: 100;
+    padding: 0.75rem;
+    margin-right: 0.5rem;
+}
+
+main a {
+    color: rgb(26, 13, 171);
+    word-spacing: 0.5rem;
+}
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    font-size: 0.9rem;
+}
+
+footer p {
+    padding: 1% 2.5%;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+
+footer nav {
+    padding: 0.5% 0 1.5% 2.5%;
+    word-spacing: 1rem;
+}
+
+.phrase {
+    word-spacing: 1px !important;
+}
+
+footer span {
+    float: right;
+    margin-right: 2.5%;
+}
+
